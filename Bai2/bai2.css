@@ -1,0 +1,36 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  background: linear-gradient(to bottom,#C9A227 , #A8861B);
+  padding: 30px 5vw;
+  line-height: 1,6;
+  font-size: 28px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+.text{
+  overflow: hidden;
+}
+
+p{
+  color: #fff;
+  text-align: justify;
+}
+
+img.wall{
+  float: right;
+  width: 350px;
+  aspect-ratio: 170/240;
+  height: auto;
+  border: 3px solid #fff;
+  margin-left:30px ;
+}
