@@ -1,0 +1,58 @@
+body{
+    max-width: 700px;
+    color: black;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+h1.title{
+    text-align: center;
+    color: #C2185B;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.layout{
+    display: flex;
+    gap :24px;
+}
+
+.left-col{
+    flex: 0 0 200px;
+}
+
+.left-col img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.right-col{
+    flex: 1;
+}
+
+.section-title{
+    background-color:  #FFC0CB;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+ul.list-sp{
+    list-style-type: square;
+    margin: 0 0 10px 0;
+    padding-left: 22px;
+}
+
+ul.list-sp{
+    list-style-type: circle;
+    margin: 0 0 10px 0;
+    padding-left: 22px;
+}
+
+.copyright{
+    text-align: right;
+    color: #0000EE;
+    text-decoration: underline;
+    margin-top: 30px;
+}
