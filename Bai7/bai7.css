@@ -1,0 +1,64 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    width: 700px;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+}
+
+.dai-tieu-de {
+    background-color: #C8102E;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px 10px;
+}
+
+.dai-phu {
+    background-color: #FBE3E8;
+    color: #C8102E;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.than-bai {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.cot {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.cot-trai {
+    float: left;
+    border-right: 2px solid #C8102E;
+}
+
+.cot-phai {
+    float: right;
+}
+
+h3 {
+    color: #C8102E;
+    font-size: 15px;
+}
+
+ul {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cot-phai img {
+    float: right;
+    width: 130px;
+    margin: 0 0 10px 10px;
+}
