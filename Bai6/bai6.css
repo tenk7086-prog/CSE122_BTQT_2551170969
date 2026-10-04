@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 30px;
+    background-color: #fdf3dc;
+}
+
+h1{
+    text-align: center;
+    color: #E65100;
+}
+
+.noidung{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.noidung img{
+    width: 220px;
+    height: auto;
+}
+
+table{
+    boder-collapse: collapse;
+    width: 450px;
+}
+
+th{
+    background-color: #E65100;
+    coler:white;
+    padding:10px;
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #E0D6C2;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #FDF8EF;
+}
+
+.stt{
+    width:60px ;
+    text-align: center;
+}
