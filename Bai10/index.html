@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai10 - Trang liên hệ</title>
+    <link rel="stylesheet" href="bai10.css">
+</head>
+
+<body>
+    <form action="" class="form" method="post">
+        <div class="form-header">
+            <h1>Liên hiện với chúng tôi</h1>
+            <p>Vui lòng điền thông tin bên dưới, chúng tôi sẽ phản hồi trong 24h.</p>
+
+        </div>
+
+        <div class="form-body">
+            <div class="grid">
+                <div class="field">
+                    <label for="name">Họ và tên</label>
+                    <input type="text" name="name" id="name" placeholder="Nguyễn Văn An" required>
+
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="an.nv@tlu.edu.vn" required>
+                </div>
+                <div class="field">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0987 654 321">
+                </div>
+                <div class="field">
+                    <label for="topic">Chủ đề</label>
+                    <select name="topic" name="topic">
+                        <option value="">Hỏi về khóa học</option>
+                        <option value="">Hỗ trợ kĩ thuật</option>
+                        <option value="">Góp ý</option>
+                        <option value="">Khác</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field">
+                <label for="message">Nội dung</label>
+                <textarea name="message" id="message" class="" rows="4" placeholder="Nhập nội dung..."></textarea>
+            </div>
+
+            <div class="agree">
+                <input type="checkbox" id="agree" name="agree" class="" checked>
+                <label for="agree">Tôi đồng ý nhận email phản hồi</label>
+            </div>
+
+            <div class="button">
+                <button class="btn btn-primary" type="submit">Gửi liên hệ</button>
+                <button class="btn btn-light" type="reset">Nhập lại</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
